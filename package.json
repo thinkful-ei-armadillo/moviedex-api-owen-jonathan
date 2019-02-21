@@ -1,0 +1,28 @@
+{
+	"name": "moviedex-api",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"test": "mocha",
+		"start": "nodemon server",
+		"debug": "ndb server",
+		"debugsearch": "ndb server /movie?search='america'"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"devDependencies": {
+		"chai": "^4.2.0",
+		"mocha": "^6.0.0",
+		"nodemon": "^1.18.10",
+		"supertest": "^3.4.2"
+	},
+	"dependencies": {
+		"cors": "^2.8.5",
+		"dotenv": "^6.2.0",
+		"express": "^4.16.4",
+		"helmet": "^3.15.1",
+		"morgan": "^1.9.1"
+	}
+}
